@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assisment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard">
+        <header>
+            <h1>Assisment</h1>
+        </header>
+        
+        <section class="activity-status">
+            <h2>Activity Status (74) <a href="#">View all</a></h2>
+            <div class="filter-buttons">
+                <button data-status="all">All</button>
+                <button data-status="overdue">Overdue</button>
+                <button data-status="today">Today</button>
+                <button data-status="ticket">Ticket</button>
+                <button data-status="critical">Critical</button>
+                <button data-status="assigned">Assigned by me</button>
+            </div>
+            <ul>
+                <li><input type="checkbox" id="overdue"> Overdue <span>25</span></li>
+                <li><input type="checkbox" id="today" checked> Today <span>02</span></li>
+                <li><input type="checkbox" id="ticket" checked> Ticket <span>20</span></li>
+                <li><input type="checkbox" id="critical"> Critical <span>15</span></li>
+                <li><input type="checkbox" id="assigned" checked> Assigned by me <span>12</span></li>
+            </ul>
+        </section>
+
+        <section class="assignment">
+            <h2>Assignment (03) <a href="#">View all</a></h2>
+            <button class="toggle-all-btn">Toggle All</button>
+            <ul>
+                <li><input type="checkbox" checked> EkatmERP - Production support <span>449 100%</span></li>
+                <li><input type="checkbox" checked> EkatmERP - Production support <span>449 100%</span></li>
+                <li><input type="checkbox" checked> EkatmERP - Production support <span>449 100%</span></li>
+            </ul>
+        </section>
+
+        <section class="report">
+            <h2>Report (03) <a href="#">View all</a></h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Overdue</th>
+                    <th>Total</th>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" checked> Amay Gurjar</td>
+                    <td>20</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" checked> Amay Gurjar</td>
+                    <td>20</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" checked> Amay Gurjar</td>
+                    <td>20</td>
+                    <td>25</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="clients">
+            <h2>Clients (03) <a href="#">View all</a></h2>
+            <table>
+                <tr>
+                    <th>Projects</th>
+                    <th>Assigned</th>
+                    <th>Overdue</th>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" checked> Santhosh harish & Co, C</td>
+                    <td>449</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" checked> EkatmERP - Production support</td>
+                    <td>449</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" checked> EkatmERP - Production support</td>
+                    <td>449</td>
+                    <td>100%</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="due-date">
+            <h2>Due Date Information (03) <a href="#">View all</a></h2>
+            <button class="toggle-all-btn">Toggle All</button>
+            <ul>
+                <li><input type="checkbox"> Form MSME <span>20/03/2024 To 20/03/2024</span></li>
+                <li><input type="checkbox"> Form MSME <span>20/03/2024 To 20/03/2024</span></li>
+                <li><input type="checkbox"> Form MSME <span>20/03/2024</span></li>
+            </ul>
+        </section>
+
+        <section class="meetings">
+            <h2>Meetings (0) <a href="#">View all</a></h2>
+        </section>
+
+        <section class="feedback">
+            <h2>Feedback (0) <a href="#">View all</a></h2>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
